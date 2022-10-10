@@ -1,0 +1,21 @@
+t = dict(bangalore = 35,madras = 40,delhi =45)
+d =([['bangalore',66]])
+# print(d)
+# e =([('bangalore',90),('delhi',60),('madras',70)])
+# print(e)
+# l =({'noida:90,bangalore:80'})
+# print(l)
+# t ={[0,9]:['hi'],('hello'):9}
+# print(t)
+# a ={'hello':90}
+# print(a.get('by'))
+# a["light"]
+r = d.fromkeys(t)
+# print(r)
+# print(d.pop('j'))
+# d.update([('bangalore',88)])
+# print(d)
+# a_ = dict.fromkeys(d,99)
+# print(a_)
+d.update([('bangalore',99)])
+print(d)
